@@ -1,0 +1,1451 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.home {
+    margin: 0;
+    height: 58rem;
+    padding: 0%;
+    background-image: url("/public/bg1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0));
+}
+
+.nav ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li {
+    padding-top: 2rem;
+    list-style: none;
+
+}
+.hamburger-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+ }
+ .nav-links {
+    display: none;
+    background-color: transparent;
+    color: white;
+ }
+ .nav-links a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+ }
+ .nav-links a:hover {
+    background-color: #111;
+ }
+.nav .ham-menu-icon {
+    margin-left: 2rem;
+}
+
+.nav .logo-icon {
+    width: 20rem;
+}
+
+.enquiryButton {
+    margin-right: 2rem;
+    cursor: pointer;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+
+}
+
+.homeMiddle {
+
+    padding-top: 21rem;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeMiddle h1 {
+    margin: 0%;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5rem;
+}
+
+.homeContent {
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeMiddle .homeContent h3 {
+    margin: 0%;
+    font-family: "Cabin", sans-serif;
+    font-size: 1rem;
+}
+
+.homeButton {
+    margin-top: 2rem;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+    margin-bottom: 15rem;
+    cursor: pointer;
+}
+
+.bottom1 {
+    width: fit-content;
+    position: relative;
+
+}
+
+.bottom2 {
+    width: fit-content;
+    position: relative;
+    top: 30px;
+}
+
+.bottom1 h3 {
+    /* margin: 0%;
+    padding: 0%;
+    font-size: 1rem;   
+    position: relative;
+    background-color: rgb(1, 47, 78);
+    transform: rotate(1deg); */
+    /* padding: 0%;
+    margin: 0%; */
+    /* font-size: 1rem;    */
+    background-color: rgb(1, 47, 78);
+    /* width: auto; */
+    /* top: 900.41px; */
+    /* left: 1556.25px; */
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    white-space: nowrap;
+    transform: rotate(1deg);
+    transform-origin: 0 0;
+    z-index: 1;
+
+
+}
+
+.bottom2 h3 {
+    /* font-size: 2.5rem;
+    background-color: rgb(1, 77, 26);
+    transform: rotate(-1deg); */
+    /* padding: 0%;
+    margin: 0%; */
+    /* font-size: 1rem;    */
+    background-color: rgb(1, 77, 26);
+    /* width: auto; */
+    /* top: 910.41px; */
+    /* left: 1556.25px; */
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    /* display: inline-block; */
+    white-space: nowrap;
+    transform: rotate(-1deg);
+    transform-origin: 0 0;
+    z-index: 2;
+}
+
+@media screen and (max-width:1600px) {
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        background-image: linear-gradient(black, rgba(255, 255, 255, 0));
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .nav .logo-icon {
+        width: 15rem;
+
+    }
+
+    .homeMiddle h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .nav .logo-icon {
+        width: 11rem;
+
+    }
+
+    .homeMiddle h1 {
+        font-size: 2rem;
+    }
+}
+
+.aboutUs {
+    background-color: rgb(4, 27, 61);
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about1 .text1 {
+    font-family: "Cabin", sans-serif;
+
+    color: white;
+    padding: 5rem;
+    width: 20rem;
+}
+
+.img1 img {
+    padding: 5rem 0 0 5rem;
+    height: 30rem;
+
+}
+
+@media screen and (max-width:1156px) {
+    .about1 .text1 {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width:1156px) {
+    .img1 img {
+        padding: 5rem 0 0 5rem;
+        height: 25rem;
+
+    }
+
+    .about1 .text1 {
+        font-family: "Cabin", sans-serif;
+
+        color: white;
+        padding: 5rem;
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width:764px) {
+    .about1 .img1 img {
+        padding: 5rem 0 0 5rem;
+        height: 15rem;
+
+    }
+}
+
+@media screen and (max-width:1008px) {
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.about2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about2 .text1 {
+    font-family: "Cabin", sans-serif;
+    position: relative;
+    top: -60px;
+    color: white;
+    width: 20rem;
+    font-size: 2rem;
+}
+
+.text1 .heading1 h1 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.heading1 .greenHead {
+    padding: 0;
+    margin: 0;
+    color: green;
+}
+
+.video1 .img1 {
+    position: relative;
+    top: -68px;
+    left: 49px;
+    height: 20rem;
+
+}
+
+.video1 .img2 {
+    position: relative;
+    bottom: 309px;
+    left: -27px;
+    height: 10rem;
+
+}
+
+@media screen and (max-width:511px) {
+    .about2 .text1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:761px) {
+    .about2 {
+        flex-direction: column;
+    }
+
+    .about2 .text1 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.about3 {
+
+    font-family: "Cabin", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about3 .box1 {
+    margin: 1rem;
+    padding-bottom: 2rem;
+    width: 30rem;
+    background-color: rgb(6, 35, 80);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid green;
+}
+
+.about3 .box1 h1 {
+    position: relative;
+    top: -20px;
+    margin: 0%;
+    color: green;
+}
+
+.about3 .box1 h2 {
+    position: relative;
+    top: -10px;
+    margin: 0%;
+}
+
+.about3 .box1 h4 {
+
+    margin: 0%;
+
+}
+
+.about3 .box1 hr {
+    width: 90px;
+    border: 1px solid green;
+}
+
+@media screen and (max-width:1519px) {
+    .about3 .box1 {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:1044px) {
+    .about3 {
+        flex-direction: column;
+    }
+
+    .about3 .box1 {
+        width: 20rem;
+    }
+}
+
+/*Custom Font*/
+
+
+/*Basic Reset*/
+
+.about4 {
+    margin: 4rem;
+}
+
+.about4Img {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+}
+
+.about5 {
+    font-family: "Cabin", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about5 .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about5 .text .about5Heading .green {
+    color: rgb(255, 255, 255);
+}
+
+.about5 .text .about5Heading {
+    font-size: 1.8rem;
+}
+
+.about5 .text .about5Heading h1 {
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+.about5 .text .about5Content {
+    padding: 4rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.about5 .img {
+    margin: 0%;
+    padding: 0 4rem 4rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about5 .img .img1 {
+    position: relative;
+}
+
+.about5 .img .img1 .imageText {
+
+    position: absolute;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    left: 80px;
+    bottom: 0px;
+    width: 20.1rem;
+    align-items: center;
+
+    background-color: green;
+    color: white;
+
+
+}
+
+.img a {
+    cursor: pointer;
+}
+
+@media screen and (max-width:985px) {
+    .about5 .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:1349px) {
+    .about5 .img {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1157px) {
+    .about5 .img .img1 .imageText {
+        width: 16.9rem;
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .about5 .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width:1220px) {
+    .about5 .text .about5Content {
+        padding: 4rem;
+        width: 21rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+
+.about6 {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+
+    padding-bottom: 20rem;
+}
+
+.about6 .about6text li {
+    list-style: none;
+}
+
+.about6text .heading {
+    margin: 0%;
+    width: 26rem;
+
+    font-size: 1.5rem;
+}
+
+.about6text li h3 {
+    color: green;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    text-align: end;
+    /* For Edge */
+    text-align-last: right;
+}
+
+.about6text li h5 {
+    width: 21rem;
+    font-style: normal;
+    font-weight: 5;
+    padding-bottom: 1rem;
+    position: relative;
+    top: -1.5rem;
+    right: -4.5rem;
+    margin: 0%;
+    text-align: end;
+    text-align-last: right;
+
+}
+
+#cover {
+    position: relative;
+    top: 6rem;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#cover>img {
+    float: left;
+    border: 2px solid black;
+    width: 40%;
+    margin: 1.66%;
+}
+
+@media screen and (max-width:700px) {
+    #cover {
+        position: relative;
+        top: 6rem;
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:415px) {
+    #cover {
+        position: relative;
+        top: 6rem;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .about6 {
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+
+    .about6text {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about6text {
+        margin-top: 14rem;
+        width: 400px;
+        font-size: small;
+    }
+
+    .about6text .heading {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:492px) {
+    .about6text {
+        margin-top: 14rem;
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .about6text .heading {
+        font-size: 20px;
+        margin: 0%;
+        width: 20rem;
+    }
+    .about6text ul{
+        padding: 25px;
+    }
+    
+    
+}
+
+.about6text li h5 {
+    /* width: 21rem; */
+    font-style: normal;
+    font-weight: 5;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    margin: 0%;
+    text-align: start;
+    text-align-last: left;
+}
+
+.about7 {
+    background-image: url(/public/Mask\ group.png);
+    position: relative;
+    top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cabin", sans-serif
+}
+
+.about7 .text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about7text {
+    text-align: center;
+    width: 35rem;
+    font-weight: 50;
+    color: white;
+}
+
+.about7 .text .about7Heading {
+    color: white;
+    font-family: "Cabin", sans-serif
+}
+
+.corousel {
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rem;
+}
+
+.corousel1 {
+    width: fit-content;
+    margin: 2rem;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corousel1 .section1 img {
+
+    width: 25rem;
+    padding: 0%;
+
+}
+
+.corousel1 .section2 img {
+    position: relative;
+    top: -39px;
+    width: 5rem;
+}
+
+.corousel1 .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corousel1 .section2 h4 {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+
+    top: -35px;
+}
+
+.corousel1 .section4 {
+    position: relative;
+    right: 12.5rem;
+    bottom: 2.5rem;
+    background-color: green;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    width: 2rem;
+    height: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.corousel1 .section3 {
+    position: relative;
+    bottom: 5rem;
+    width: 15rem;
+}
+
+.corousel1 .section3 h5 {
+    text-align: center;
+}
+
+.corousel2 {
+    width: fit-content;
+    margin: 2rem;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corousel2 .section1 img {
+
+    width: 25rem;
+    padding: 0%;
+
+}
+
+.corousel2 .section2 img {
+    position: relative;
+    top: -39px;
+    width: 5rem;
+}
+
+.corousel2 .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corousel2 .section2 h4 {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+
+    top: -35px;
+}
+
+.corousel2 .section4 {
+    position: relative;
+    left: 12.5rem;
+    bottom: 2.5rem;
+    background-color: green;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    width: 2rem;
+    height: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.corousel2 .section3 {
+    position: relative;
+    bottom: 5rem;
+    width: 15rem;
+}
+
+.corousel2 .section3 h5 {
+    text-align: center;
+}
+
+@media screen and (max-width:1220px) {
+    .about7 {
+        top: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .corousel {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .about7text {
+        text-align: center;
+        width: 22rem;
+        font-weight: 50;
+        color: white;
+    }
+}
+@media screen and (max-width:450px) {
+    .corousel1 {
+        width: 18rem;
+        margin: 7rem;
+        height: max-content;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .corousel1 .section1 img {
+        width: 18rem;
+        padding: 0%;
+    }
+    .corousel1 .section4 {
+        position: relative;
+        right: 9.5rem;
+        bottom: 2.5rem;
+        background-color: green;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        width: 2rem;
+        height: 3rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .corousel2 {
+        width: 18rem;
+        margin: 7rem;
+        height: max-content;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .corousel2 .section1 img {
+        width: 18rem;
+        padding: 0%;
+    }
+    .corousel2 .section4 {
+        position: relative;
+        left: 9.5rem;
+        bottom: 2.5rem;
+        background-color: green;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        width: 2rem;
+        height: 3rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.about8 {
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about8text {
+    position: relative;
+    top: 8rem;
+    font-family: "Cabin", sans-serif;
+    color: white;
+    width: 40rem;
+}
+
+.about8Corousel {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about8Corousel1 img {
+    height: 30rem;
+    width: 20rem;
+}
+
+.about8Corousel2 img {
+    height: 30rem;
+    width: 20rem;
+}
+
+.about8Corousel .section4 {
+    position: relative;
+    left: 0;
+    top: 25rem;
+    background-color: green;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    width: 2rem;
+    height: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1379px) {
+    .about8 {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .about8Corousel {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width:843px) {
+    .about8Corousel {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .about8text {
+        position: relative;
+        top: 2rem;
+        font-family: "Cabin", sans-serif;
+        color: white;
+        width: 25rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .about8text {
+        position: relative;
+        top: 2rem;
+        font-family: "Cabin", sans-serif;
+        color: white;
+        width: 16rem;
+    }
+}
+
+/* #scroll-container { */
+/* border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden; */
+/* height: auto;
+    color: green;
+    font-size: 4rem;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  } */
+/* *, *::before, *::after{
+    -webkit-box-sizing:padding-box;
+    box-sizing:padding-box;
+  } */
+
+/* body{
+    background:#CCC;
+  }
+  
+  body,
+  div,
+  ul,
+  li,
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    font-size: 16pt;
+  }
+   */
+/* Container styles */
+.scrolling-text-container {
+    /* background-color: #eff5ff;
+    border-radius: 4px;
+    overflow: hidden; */
+    margin-top: 8rem;
+    width: 100rem;
+    overflow: hidden;
+    color: rgb(4, 116, 190);
+}
+
+/* Inner container styles */
+.scrolling-text-inner {
+    display: flex;
+    white-space: nowrap;
+    /* font-size: 16px; */
+    font-weight: 600;
+    padding: 8px 0;
+    font-size: 4rem;
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+/* Text styles */
+.scrolling-text {
+    display: flex;
+}
+
+.scrolling-text-item {
+    padding: 0 30px;
+}
+
+/* Apply the animation to the text items */
+.scrolling-text-inner>div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+/* Pause the animation when a user hovers over it */
+.scrolling-text-container:hover .scrolling-text-inner>div {
+    animation-play-state: paused;
+}
+
+/* Setting the Animation using Keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width:1640px) {
+    .scrolling-text-container {
+        width: 80rem;
+    }
+}
+
+@media screen and (max-width:1506px) {
+    .scrolling-text-container {
+        width: 70rem;
+    }
+}
+
+@media screen and (max-width:1206px) {
+    .scrolling-text-container {
+        width: 65rem;
+    }
+}
+
+@media screen and (max-width:1106px) {
+    .scrolling-text-container {
+        width: 55rem;
+    }
+}
+
+@media screen and (max-width:918px) {
+    .scrolling-text-container {
+        width: 45rem;
+    }
+}
+
+@media screen and (max-width:757px) {
+    .scrolling-text-container {
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width:573px) {
+    .scrolling-text-container {
+        width: 25rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .scrolling-text-container {
+        width: 16rem;
+    }
+}
+
+.about9Cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about9Cards .card1 {
+    padding: 1rem;
+}
+
+@media screen and (max-width:1362px) {
+    .about9Cards .card1 {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .about9Cards {
+        flex-direction: column;
+    }
+}
+
+.contact {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/Rectangle\ 152.png);
+    width: 100%;
+    font-family: "Cabin", sans-serif;
+}
+
+.contactHeading {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: green;
+    width: 40rem;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:647px) {
+    .contactHeading{
+            width: 26rem;
+    }
+
+}
+@media screen and (max-width:450px) {
+    .contactHeading{
+            width: 14rem;
+    }
+    .contactContent{
+        width: 15rem;
+    }
+
+}
+.contactContent {
+    padding: 0%;
+    padding-bottom: 3rem;
+    margin: 0%;
+    color: white;
+}
+
+.contact input {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px #00000033;
+
+
+}
+
+.contact select {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px #00000033;
+}
+
+.contact .Submitbut {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    width: 15rem;
+    border-radius: 25px;
+    margin-bottom: 5rem;
+}
+
+.emailUpdates {
+    background-color: green;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cabin", sans-serif;
+}
+@media screen and (max-width:1036px) {
+    .emailUpdates{
+        flex-direction: column;
+    }
+}
+.updateText h1,
+p {
+    color: white;
+}
+
+.updateMail input {
+    margin: 1rem;
+    border-radius: 25px;
+    padding: 15px;
+    width: 25rem;
+}
+@media screen and (max-width:450px) {
+    .updateMail input {
+        margin: 1rem;
+        border-radius: 25px;
+        padding: 15px;
+        width: 15rem;
+    }
+}
+.footer {
+    margin-top: 5rem;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content:flex-start;
+    color: green;
+    font-family: "Cabin", sans-serif;
+}
+
+
+.content1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 4rem;
+    padding-left: 0%;
+}
+
+.content1 li {
+    list-style: none;
+    padding-bottom: 0.4rem;
+
+}
+
+.content1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    padding-left: 0%;
+}
+
+.content2 li {
+    list-style: none;
+    padding-bottom: 0.4rem;
+
+}
+
+.content2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 4rem;
+    padding-left: 0%;
+}
+
+.content3 li {
+    list-style: none;
+    padding-bottom: 0.4rem;
+}
+
+.content3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20rem;
+    padding-top: 4rem;
+    padding-left: 0%;
+}
+
+.content4 li {
+    width: 20rem;
+    list-style: none;
+    color: white;
+    padding-bottom: 0.4rem;
+}
+
+.content4 a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1380px) {
+    .content1 {
+        padding: 2rem;
+    }
+
+    .content2 {
+        padding: 2rem;
+    }
+
+    .content3 {
+        padding: 2rem;
+    }
+
+    .content4 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:1259px) {
+    .content1 {
+        padding: 1rem;
+    }
+
+    .content2 {
+        padding: 1rem;
+    }
+
+    .content3 {
+        padding: 1rem;
+    }
+
+    .content4 {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:1127px) {
+    .footerContent {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:450px) {
+    .content4 {
+        padding-right: 5rem;
+    }
+    .content4 li {
+        width: 15rem;
+        list-style: none;
+        color: white;
+        padding-bottom: 0.4rem;
+    }
+}
+
+
+.footerEnd {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    color: white;
+    
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+@media screen and (max-width:450px){
+    .footerEnd{
+        width: 20rem;
+    }
+}
